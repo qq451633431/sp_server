@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Channl32", "Channl32\Channl32.vcxproj", "{D35AC74E-89F4-458E-A2FB-472AB79F941E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Login32", "Login32\Login32.vcxproj", "{3FA0A21C-7626-489C-929D-C57E0C68EA9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C74F520E-79A7-46DF-AC4D-7344D2576EA7}"
+	ProjectSection(SolutionItems) = preProject
+		bin\config.ini = bin\config.ini
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D35AC74E-89F4-458E-A2FB-472AB79F941E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D35AC74E-89F4-458E-A2FB-472AB79F941E}.Debug|Win32.Build.0 = Debug|Win32
+		{D35AC74E-89F4-458E-A2FB-472AB79F941E}.Release|Win32.ActiveCfg = Release|Win32
+		{D35AC74E-89F4-458E-A2FB-472AB79F941E}.Release|Win32.Build.0 = Release|Win32
+		{3FA0A21C-7626-489C-929D-C57E0C68EA9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FA0A21C-7626-489C-929D-C57E0C68EA9D}.Debug|Win32.Build.0 = Debug|Win32
+		{3FA0A21C-7626-489C-929D-C57E0C68EA9D}.Release|Win32.ActiveCfg = Release|Win32
+		{3FA0A21C-7626-489C-929D-C57E0C68EA9D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

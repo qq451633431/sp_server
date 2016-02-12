@@ -1,0 +1,18 @@
+Starcraft/Diablo I/Warcraft II
+==============================
+* Use the Starcraft/Diablo I/Warcraft II patcher.
+
+Privateer 2: The Darkening (Win95 Edition)
+==========================================
+* Use defaults.
+
+Master of Orion 2: Battle at Antares
+====================================
+* Use defaults.
+
+Civilization III
+================
+* Check "Patch All Modules" and "Keep Window Inside Screen".
+* Set the window size to match your screen resolution in pixels.
+* Set "KeepRes=1" in Civilization3.Ini (this value may not exist by default).
+* Leave other options at their defaults.

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shared">
+      <UniqueIdentifier>{d10aaa37-d36d-4d04-ba6a-0db7a601a393}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\shared\IOSocket.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer.cpp" />
+    <ClCompile Include="PacketHandler.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MySQL.cpp" />
+    <ClCompile Include="..\shared\ini.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\IOSocket.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\console.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\typedefs.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPackets.h" />
+    <ClInclude Include="ServerPackets.h" />
+    <ClInclude Include="LoginServer.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MySQL.h" />
+    <ClInclude Include="PacketHandler.h" />
+    <ClInclude Include="ServerEnum.h" />
+    <ClInclude Include="..\shared\ini.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
